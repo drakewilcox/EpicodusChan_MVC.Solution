@@ -1,7 +1,9 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<h1>New Message:</h1>
+
+
+<h1>Edit Info:</h1>
 
 <form action="/Animals/Details/@(Model.AnimalId)" method="post">
   <label for="MessageId">Message ID:</label>
@@ -24,19 +26,5 @@
 
   <button type="submit">Go!</button>
 </form>
-<h1>Messages: </h1>
-<ol>
-  @foreach (Message message in Model)
-  {
-    <ul>
-      <li>ID: @message.MessageId</li>
-      <li>GroupID: @message.GroupId</li>
-      <li>Title: @message.Title</li>
-      <li>User: @message.UserName</li>
-      <li>Entry: @message.Entry</li>
-      <li>Date: @message.Date</li>
-    </ul>
-    <a href="/Messages/Details/@(message.MessageId)"><p>ViewDetails</p></a>
-    <br>
-  }
-</ol>
+
+<a href="/Messages/Details/@(Model.MessageId)"><p>Return to Details</p></a>
