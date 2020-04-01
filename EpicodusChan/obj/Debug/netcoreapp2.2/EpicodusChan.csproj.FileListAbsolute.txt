@@ -28,3 +28,4 @@
 /Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/EpicodusChan.dll
 /Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/EpicodusChan.pdb
 /Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/EpicodusChan.csproj.CopyComplete
+/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Messages/Index.g.cshtml.cs

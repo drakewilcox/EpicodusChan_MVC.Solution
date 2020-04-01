@@ -2986,6 +2986,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Messages/Index.cshtml",
+      "TargetPath": "Views\\Messages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
