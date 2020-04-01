@@ -2961,6 +2961,16 @@
   "RootNamespace": "EpicodusChan",
   "Documents": [
     {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Messages/Create.cshtml",
+      "TargetPath": "Views\\Messages\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Messages/Edit.cshtml",
+      "TargetPath": "Views\\Messages\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Shared/_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
@@ -2991,8 +3001,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Messages/Details.cshtml",
+      "TargetPath": "Views\\Messages\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Messages/Delete.cshtml",
+      "TargetPath": "Views\\Messages\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
