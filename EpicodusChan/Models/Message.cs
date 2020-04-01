@@ -36,7 +36,7 @@ namespace EpicodusChan.Models
     }
       public static void Post(Message message)
     {
-      string jsonmessage = JsonConvert.SerializeObject(message);
+      string jsonMessage = JsonConvert.SerializeObject(message);
       var apiCallTask = ApiHelper.Post(jsonMessage);
     }
 
