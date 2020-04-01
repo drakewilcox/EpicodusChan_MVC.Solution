@@ -3,34 +3,36 @@
 }
 <h1>New Message:</h1>
 
-<form action="/Messages/Details/@(Model.MessageId)" method="post">
-  <label for="MessageId">Message ID:</label>
-  <input id="MessageId" name="MessageId" type="text" value="@(Model.MessageId)">
+<form action="/Messages" method="post">
+  @* <label for="MessageId">Message ID:</label>
+  <input id="MessageId" name="MessageId" type="text">
 
   <label for="GroupId">Group ID:</label>
-  <input id="GroupId" name="GroupId" type="text" value="@(Model.GroupId)">
+  <input id="GroupId" name="GroupId" type="text"> *@
 
   <label for="Title">Message Title:</label>
-  <input id="Title" name="Title" type="number" value="@(Model.Title)">
+  <input id="Title" name="Title" type="text">
 
   <label for="User">User:</label>
-  <input id="User" name="User" type="text" value="@(Model.User)">
+  <input id="User" name="User" type="text">
 
   <label for="Entry">Message Body:</label>
-  <input id="Entry" name="Entry" type="text" value="@(Model.Entry)">
+  <input id="Entry" name="Entry" type="text">
 
   <label for="Date">Date:</label>
-  <input id="Date" name="Date" type="text" value="@(Model.Date)">
+  <input id="Date" name="Date" type="text">
 
   <button type="submit">Go!</button>
 </form>
+
 <h1>Messages: </h1>
+
 <ol>
   @foreach (Message message in Model)
   {
     <ul>
-      <li>ID: @message.MessageId</li>
-      <li>GroupID: @message.GroupId</li>
+      @* <li>ID: @message.MessageId</li>
+      <li>GroupID: @message.GroupId</li> *@
       <li>Title: @message.Title</li>
       <li>User: @message.UserName</li>
       <li>Entry: @message.Entry</li>
