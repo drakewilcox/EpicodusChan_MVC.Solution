@@ -61,6 +61,5 @@ namespace EpicodusChan.Controllers
       Message.DeleteMessage(groupId, messageId);
       return RedirectToAction("Details", "Groups", new { id = groupId });
     }
-
   }
 }

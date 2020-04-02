@@ -43,7 +43,7 @@ namespace EpicodusChan.Controllers
     public IActionResult Edit(Group group)
     {
       Group.Put(group);
-      return RedirectToAction("Details", new { id = group.GroupId });
+      return RedirectToAction("Details", "Groups", new { id = group.GroupId });
     }
     public IActionResult Delete(int id)
     {
