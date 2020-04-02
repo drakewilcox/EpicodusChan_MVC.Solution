@@ -12,7 +12,7 @@ namespace EpicodusChan.Controllers
   {
     public IActionResult Index()
     {
-      // var allMessages = Message.GetMessages();
+      var allMessages = Message.GetMessages();
       return View();
     }
 
@@ -23,12 +23,18 @@ namespace EpicodusChan.Controllers
       return View(message);
     }
 
+    public IActionResult Create(int groupId)
+    {
+      ViewBag.groupId = groupId;
+      return View();
+    }
+
     [HttpPost]
     public IActionResult Create(int groupId, Message message)
     {
       // message.MessageId = Id;
       Message.CreateMessage(groupId, message);
-      return RedirectToAction("Index");
+      return RedirectToAction("Details", "Groups", new { id = groupId});
     }
     public IActionResult Edit(int groupId, int messageId)
     {
