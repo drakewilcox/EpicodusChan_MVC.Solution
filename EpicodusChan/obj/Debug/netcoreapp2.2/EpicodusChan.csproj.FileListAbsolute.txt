@@ -33,3 +33,7 @@
 /Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Messages/Delete.g.cshtml.cs
 /Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Messages/Details.g.cshtml.cs
 /Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Messages/Edit.g.cshtml.cs
+/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Groups/Create.g.cshtml.cs
+/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Groups/Delete.g.cshtml.cs
+/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Groups/Details.g.cshtml.cs
+/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/obj/Debug/netcoreapp2.2/Razor/Views/Groups/Index.g.cshtml.cs

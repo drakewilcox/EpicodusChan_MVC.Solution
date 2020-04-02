@@ -4,7 +4,7 @@
 
 @foreach( var message in Model.Messages)
 {
-  <h4> @Html.ActionLink($"{@message.Title}", "Details", "Posts", new { groupId = Model.GroupId, messageId = message.MessageId})</h4>
+  <h4> @Html.ActionLink($"{@message.Title}", "Details", "Messages", new { groupId = Model.GroupId, messageId = message.MessageId})</h4>
   <div>
     <p>
       @message.Entry
@@ -13,7 +13,7 @@
   </div>
 }
 
-@Html.ActionLink("Add Message", "Create", "Messages", new {boardId = Model.BoardId}, new {@class="btn btn-dark btn-lg"})
+@Html.ActionLink("Add Message", "Create", "Messages", new {groupId = Model.GroupId}, new {@class="btn btn-dark btn-lg"})
 
 @Html.ActionLink("Edit", "Edit", new {id = Model.GroupId}, new {@class="btn btn-dark btn-lg"})
 
