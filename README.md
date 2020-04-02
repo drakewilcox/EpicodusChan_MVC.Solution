@@ -8,21 +8,6 @@
 
 This is a project designed to create a functional MVC for a message board application utilizing a previously created API. It should allow for displaying data via an API from a database.
 
-## Additional API Documentation
-
-https://app.swaggerhub.com/apis-docs/brandanpdx/travel/v1#/
-
-## Behavior Driven Development Specifications
-
-| Specification | Input | Output |
-|:-------------:|:-----:|:------:|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  | 
-
-
-
 ## Setup/Installation Requirements
 
 ### Install .NET Core
