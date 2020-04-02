@@ -3001,6 +3001,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Groups/Index.cshtml",
+      "TargetPath": "Views\\Groups\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Messages/Details.cshtml",
       "TargetPath": "Views\\Messages\\Details.cshtml",
       "FileKind": "mvc"
@@ -3011,8 +3016,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Groups/Details.cshtml",
+      "TargetPath": "Views\\Groups\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Groups/Delete.cshtml",
+      "TargetPath": "Views\\Groups\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Messages/Delete.cshtml",
       "TargetPath": "Views\\Messages\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/drakewilcox/Desktop/EpicodusChan_MVC.Solution/EpicodusChan/Views/Groups/Create.cshtml",
+      "TargetPath": "Views\\Groups\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
