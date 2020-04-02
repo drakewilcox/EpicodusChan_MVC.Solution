@@ -1,14 +1,14 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<h1>New Message:</h1>
+@* <h1>New Message:</h1>
 
 <form action="/Messages" method="post">
-  @* <label for="MessageId">Message ID:</label>
+  <label for="MessageId">Message ID:</label>
   <input id="MessageId" name="MessageId" type="text">
 
   <label for="GroupId">Group ID:</label>
-  <input id="GroupId" name="GroupId" type="text"> *@
+  <input id="GroupId" name="GroupId" type="text">
 
   <label for="GroupId">GroupId:</label>
   <input id="GroupId" name="GroupId" type="text">
@@ -26,16 +26,15 @@
   <input id="Date" name="Date" type="text">
 
   <button type="submit">Go!</button>
-</form>
-
+</form> *@
 <h1>Messages: </h1>
 
 <ol>
-  @foreach (Message message in Model)
+  @foreach (var message in Model.Messages)
   {
     <ul>
-      @* <li>ID: @message.MessageId</li>
-      <li>GroupID: @message.GroupId</li> *@
+      <li>ID: @message.MessageId</li>
+      <li>GroupID: @message.GroupId</li>
       <li>Title: @message.Title</li>
       <li>User: @message.UserName</li>
       <li>Entry: @message.Entry</li>
